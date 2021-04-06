@@ -4,3 +4,7 @@ curl -H "CQ-Action: Delete" -H "CQ-Handle: /" -H "Content-Length: 0" -H "Content
 Open socket:
 netstat -an | grep ESTABLISHED | wc -l
 Socket limit: ulimit -n
+netstat -a
+
+https://gist.github.com/joemaffia/dd55e4c43a24c4948e8d
+https://github.com/paulrohrbeck/aem-links
